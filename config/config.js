@@ -4,7 +4,6 @@
 module.exports = {
     //MongoDB connection parameter
     mongodb: "mongodb://115.159.212.89:37017/jyzdb",
-    // mongodb: "mongodb://zone_jyzdb:zone20170212jyzdb@115.159.212.89:37017/jyzdb",
     secretKey: "city_zone_city",
 
     //Redis connection parameter

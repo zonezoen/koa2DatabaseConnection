@@ -6,6 +6,7 @@ const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
 
+const mongoose = require("./db/mongoConnection");
 const redisConn = require('./db/redisConnection')
 
 const index = require('./routes/index')

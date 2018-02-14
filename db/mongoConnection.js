@@ -2,7 +2,7 @@
  * Created by zone on 2018/2/10.
  */
 var mongoose = require("mongoose")
-var config = require('./config.js')
+var config = require('../config/config')
 
 
 module.exports = function(){
@@ -11,9 +11,5 @@ module.exports = function(){
 
     // ..是回到当前目录的上一级目录的意思
     require("../models/server.model.js");
-
-
-
-
     return db
 }
